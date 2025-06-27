@@ -28,6 +28,5 @@ jobs:
         name: hello-artifact
      - name: Open the file
        run: |
-        chmod +x
         cat ./artifacts/hello.txt
         
